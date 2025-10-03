@@ -22,7 +22,9 @@
 
 # --------------------------------------------------------------------------------
 
-# from src.pipline.training_pipeline import TrainPipeline
+from src.pipline.training_pipeline import TrainPipeline
 
-# pipline = TrainPipeline()
-# pipline.run_pipeline()
+pipline = TrainPipeline()
+pipline.run_pipeline()
+
+#$env:MONGODB_URL = "mongodb+srv://nitindogra1907_db_user:nitin123@cluster0.znxsrda.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
